@@ -11,7 +11,7 @@
 - [ ] **Breaking change** _(fix or feature that would cause existing functionality to not work as before)_
 
 # Checklist
-- [ ] Read the [Contributing Guide](https://github.com/aorumbayev/awesomealgo-hooks/blob/master/CONTRIBUTING.md)
+- [ ] Read the [Contributing Guide](https://github.com/aorumbayev/awesomealgo-hooks/blob/main/CONTRIBUTING.md)
 - [ ] Perform a code self-review
 - [ ] Comment the code, particularly in hard-to-understand areas
 - [ ] Add documentation

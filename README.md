@@ -4,6 +4,9 @@
     <a href="https://www.npmjs.com/package/aorumbayev/awesomealgo-hooks">
        <img src="https://img.shields.io/npm/v/awesomealgo-hooks.svg" alt="npm package" />
     </a>
+    <a href="https://circleci.com/gh/aorumbayev/awesomealgo-hooks">
+      <img src="https://img.shields.io/circleci/project/github/aorumbayev/awesomealgo-hooks/main.svg" alt="CircleCI main" />
+    </a>
     <a href="https://www.npmjs.com/package/aorumbayev/awesomealgo-hooks">
       <img src="https://img.shields.io/npm/dm/awesomealgo-hooks.svg" alt="npm downloads" />
     </a>
@@ -18,7 +21,7 @@
   <br />
 
   <pre>npm i <a href="https://www.npmjs.com/package/awesomealgo-hooks">awesomealgo-hooks</a></pre>
-  <pre>yarn add <a href="https://www.npmjs.com/package/awesomealgo-hooks">awesomealgo-hooks</a></pre>
+  <pre>yarn  add <a href="https://www.npmjs.com/package/awesomealgo-hooks">awesomealgo-hooks</a></pre>
 
   <br />
 </div>

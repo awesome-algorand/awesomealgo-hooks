@@ -13,7 +13,7 @@ const defaultSettings: UseNfdSettings = {
   network: `testnet`,
 };
 
-let cache: NFD[] | null;
+let cache: NFD[] | null = null;
 
 const fetchNFD = async (address: string, settings: UseNfdSettings = defaultSettings) => {
   try {

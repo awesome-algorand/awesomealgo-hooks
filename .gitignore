@@ -73,7 +73,7 @@ esm
 src/parser.ts
 
 .cache/
-.puppet-master/
+.puppet-main/
 
 storybook-static/
 package-lock.json
