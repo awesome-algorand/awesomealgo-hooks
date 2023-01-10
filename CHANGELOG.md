@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/aorumbayev/awesomealgo-hooks/compare/v1.0.6...v1.1.0) (2023-01-10)
+
+
+### Features
+
+* enabling codeql pipeline ([#6](https://github.com/aorumbayev/awesomealgo-hooks/issues/6)) ([0a56116](https://github.com/aorumbayev/awesomealgo-hooks/commit/0a5611634a09c563d23e7dcfff486a7966975d76))
+
 ## [1.0.6](https://github.com/aorumbayev/awesomealgo-hooks/compare/v1.0.5...v1.0.6) (2023-01-10)
 
 

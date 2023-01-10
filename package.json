@@ -1,6 +1,6 @@
 {
   "name": "awesomealgo-hooks",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "Collection of React Hooks for Algorand DApps",
   "main": "lib/index.js",
   "module": "esm/index.js",
