@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/aorumbayev/awesomealgo-hooks/compare/v1.0.3...v1.0.4) (2023-01-10)
+
+
+### Bug Fixes
+
+* resolving npm links in readme ([0402ab2](https://github.com/aorumbayev/awesomealgo-hooks/commit/0402ab2344ec1c9eb7fb67fc48c2fb2bb70525c9))
+
 ## [1.0.3](https://github.com/aorumbayev/awesomealgo-hooks/compare/v1.0.2...v1.0.3) (2023-01-10)
 
 
