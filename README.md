@@ -1,7 +1,7 @@
 <div align="center">
     <p align="center"><img  width=100%  src="https://bafkreidlreuflnufdhsyhgt6bgy3odc2pujznp4vn4mzl3zcuzh4siim7y.ipfs.nftstorage.link" /></p>
   <sup>
-    <a href="https://www.npmjs.com/package/aorumbayev/awesomealgo-hooks">
+    <a href="https://www.npmjs.com/package/awesomealgo-hooks">
        <img src="https://img.shields.io/npm/v/awesomealgo-hooks.svg" alt="npm package" />
     </a>
     <a href="https://circleci.com/gh/aorumbayev/awesomealgo-hooks">
