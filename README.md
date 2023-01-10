@@ -28,7 +28,7 @@
 
 - [**Integrations**](./docs/Integrations.md)
   > More integration and helpful hooks to come, stay tuned!
-  - [`useNfd`](./docs/useNfd.md) - tracks the state of browser's network connection. [![][img-demo]](https://codesandbox.io/s/awesomealgo-hook-usenfd-example-23bnq4)
+  - [`useNfd`](./docs/useNfd.md) - fetches NFD metadata from [NFD API](https://api-docs.nf.domains/). [![][img-demo]](https://codesandbox.io/s/awesomealgo-hook-usenfd-example-23bnq4)
 
 <br />
 
