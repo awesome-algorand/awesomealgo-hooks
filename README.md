@@ -10,7 +10,7 @@
     <a href="https://www.npmjs.com/package/aorumbayev/awesomealgo-hooks">
       <img src="https://img.shields.io/npm/dm/awesomealgo-hooks.svg" alt="npm downloads" />
     </a>
-    <a href="http://aorumbayev.github.io/awesome-algo-hooks">
+    <a href="http://aorumbayev.github.io/awesomealgo-hooks">
       <img src="https://img.shields.io/badge/demos-🚀-teal.svg" alt="demos" />
     </a>
     <a><img src="https://visitor-badge.glitch.me/badge?page_id=aorumbayev.awesomealgo-hooks&right_color=blue" /></a>
