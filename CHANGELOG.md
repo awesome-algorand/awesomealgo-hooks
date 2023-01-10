@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/aorumbayev/awesomealgo-hooks/compare/v1.0.2...v1.0.3) (2023-01-10)
+
+
+### Bug Fixes
+
+* resolving invalid demo links ([06f38c8](https://github.com/aorumbayev/awesomealgo-hooks/commit/06f38c8ce355b901c05fc666fab527d17fea6371))
+
 ## [1.0.2](https://github.com/aorumbayev/awesomealgo-hooks/compare/v1.0.1...v1.0.2) (2023-01-10)
 
 
