@@ -28,7 +28,7 @@
 
 - [**Integrations**](./docs/Integrations.md)
   > More integration and helpful hooks to come, stay tuned!
-  - ['useNfd'](./docs/useNfd.md) – tracks the state of browser's network connection. [![][img-demo]](https://aorumbayev.github.io/awesomealgo-hooks/?path=/story/integrations-usenfd-story)
+  - [`useNfd`](./docs/useNfd.md) - tracks the state of browser's network connection. [![][img-demo]](https://codesandbox.io/s/awesomealgo-hook-usenfd-example-23bnq4)
 
 <br />
 
@@ -39,6 +39,8 @@
 </p>
 
 <br />
+
+[img-demo]: https://img.shields.io/badge/demo-%20%20%20%F0%9F%9A%80-green.svg
 
 ---
 
