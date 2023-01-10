@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/aorumbayev/awesomealgo-hooks/compare/v1.0.1...v1.0.2) (2023-01-10)
+
+
+### Bug Fixes
+
+* removing unused dependencies ([6bbf5db](https://github.com/aorumbayev/awesomealgo-hooks/commit/6bbf5dba6ba52000e86f4802d40e96adab633259))
+
 ## [1.0.1](https://github.com/aorumbayev/awesomealgo-hooks/compare/v1.0.0...v1.0.1) (2023-01-10)
 
 
