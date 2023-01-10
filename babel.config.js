@@ -1,22 +1,11 @@
 module.exports = {
-  presets: [
-    [
-      "@babel/preset-env",
-      {
-        targets: {
-          node: "current"
-        }
-      }
-    ],
-    "@babel/preset-react",
-    "@babel/preset-typescript"
-  ],
+  presets: [['env'], '@babel/preset-react', '@babel/preset-typescript'],
   env: {
     test: {
-      plugins: ['dynamic-import-node']
+      plugins: ['dynamic-import-node'],
     },
     production: {
-      plugins: ['@babel/plugin-syntax-dynamic-import']
-    }
-  }
+      plugins: ['@babel/plugin-syntax-dynamic-import'],
+    },
+  },
 };
