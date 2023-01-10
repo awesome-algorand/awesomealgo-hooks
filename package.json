@@ -133,7 +133,7 @@
   },
   "release": {
     "branches": [
-      "master",
+      "main",
       {
         "name": "next",
         "prerelease": "rc"

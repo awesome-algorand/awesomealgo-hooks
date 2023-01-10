@@ -89,7 +89,7 @@ jobs:
             git remote add origin https://${GITHUB_TOKEN}@github.com/aorumbayev/awesomealgo-hooks
       - *Release
 
-  master:
+  main:
     <<: *container
     steps:
       - checkout
@@ -122,7 +122,7 @@ workflows:
           filters:
             branches:
               ignore:
-                - master
+                - main
                 - next
                 - gh-pages
   next:
@@ -132,10 +132,10 @@ workflows:
           filters:
             branches:
               only: next
-  master:
+  main:
     jobs:
-      - master:
+      - main:
           context: common-env-vars
           filters:
             branches:
-              only: master
+              only: main
