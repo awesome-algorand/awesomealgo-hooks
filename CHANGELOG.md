@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/aorumbayev/awesomealgo-hooks/compare/v1.0.4...v1.0.5) (2023-01-10)
+
+
+### Bug Fixes
+
+* fixing typo in readme ([a71dfee](https://github.com/aorumbayev/awesomealgo-hooks/commit/a71dfee5b6224e983c0dcf1ab1ea31567c32e279))
+
 ## [1.0.4](https://github.com/aorumbayev/awesomealgo-hooks/compare/v1.0.3...v1.0.4) (2023-01-10)
 
 
