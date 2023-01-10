@@ -18,7 +18,7 @@
   <br />
 
   <pre>npm i <a href="https://www.npmjs.com/package/awesomealgo-hooks">awesomealgo-hooks</a></pre>
-  <pre>yarn add <a href="https://www.npmjs.com/package/awesomealgo-hooks">awesomealgo-hooks</a></pre>
+  <pre>yarn  add <a href="https://www.npmjs.com/package/awesomealgo-hooks">awesomealgo-hooks</a></pre>
 
   <br />
 </div>
