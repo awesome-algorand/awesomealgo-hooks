@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { NFD, UseNfdSettings } from './misc/types';
+import { NFD, UseNfdSettings } from './misc/interfaces';
 
 const NFD_MAINNET = `https://api.nf.domains`;
 const NFD_TESTNET = `https://api.testnet.nf.domains`;
