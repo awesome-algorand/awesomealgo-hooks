@@ -1,5 +1,5 @@
 <div align="center">
-    <p align="center"><img  width=100%  src="https://bafkreidlreuflnufdhsyhgt6bgy3odc2pujznp4vn4mzl3zcuzh4siim7y.ipfs.nftstorage.link" /></p>
+    <p align="center"><img  width=100%  src="https://bafkreihktvr7ntgkrrcorwkkprhoamwdishetnotawzbrnsdqi32ehj5lu.ipfs.nftstorage.link" /></p>
   <sup>
     <a href="https://www.npmjs.com/package/awesomealgo-hooks">
        <img src="https://img.shields.io/npm/v/awesomealgo-hooks.svg" alt="npm package" />
@@ -29,6 +29,8 @@
 - [**Integrations**](./docs/Integrations.md)
   > More integration and helpful hooks to come, stay tuned!
   - [`useNfd`](./docs/useNfd.md) - fetches NFD metadata from [NFD API](https://api-docs.nf.domains/). [![][img-demo]](https://codesandbox.io/s/awesomealgo-hook-usenfd-example-23bnq4)
+- [**Helpers**](./docs/Helpers.md)
+  - [`useShortAddress`](./docs/useShortAddress.md) - shortens a wallet address string. [![][img-demo]](https://codesandbox.io/s/awesomealgo-hook-useshortaddress-example-r30poo)
 
 <br />
 
@@ -44,7 +46,7 @@
 
 ---
 
-## ⭐️ Stargazers
+## Stargazers
 
 Special thanks to everyone who contributed to the repository ❤️
 
@@ -52,6 +54,6 @@ Special thanks to everyone who contributed to the repository ❤️
 
 [![Forkers repo roster for @aorumbayev/awesomealgo-hooks](https://reporoster.com/forks/dark/aorumbayev/awesomealgo-hooks)](https://github.com/aorumbayev/awesomealgo-hooks/network/members)
 
-## 📝 Credits
+## Credits
 
 - [react-use](https://github.com/streamich/react-use) - for providing a great set of examples on maintaining and distributing hook package repos.

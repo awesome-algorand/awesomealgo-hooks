@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useShortAddress.default 0 1`] = `"192.168.1.5...192.168.1.5"`;
+
+exports[`useShortAddress.default 1 1`] = `"192.168.1.5...192.168.1.5"`;
+
+exports[`useShortAddress.default 2 1`] = `"192.168.1.5...192.168.1.5"`;
+
+exports[`useShortAddress.default 3 1`] = `"0.0.0.0...0.0.0.0"`;
+
+exports[`useShortAddress.default 4 1`] = `"192.168.1.5...192.168.1.5"`;
+
+exports[`useShortAddress.default 5 1`] = `"..."`;

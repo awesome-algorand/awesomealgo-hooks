@@ -5,7 +5,7 @@ import ShowDocs from './util/ShowDocs';
 
 const Demo = () => {
   const [nfd, nfds, error, refresh] = useNfd(
-    'NRLA7VZ2YV6WOS2LBS3UK25DB463XRSNG63BYNQI6CSGGROFWVQ2EKBQSI',
+    'R6YMHB4DIZIPYK2BV3TR4CD57CJZDLISTWKN5XMY7X7TCFACZIAOK5I4RM',
     { network: 'mainnet' },
   );
 
@@ -13,8 +13,16 @@ const Demo = () => {
     <div>
       <button onClick={refresh}>Refresh</button>
       <br />
+      <img
+        src={nfd ? nfd.properties.userDefined.avatar : ''}
+        alt="icon"
+        width={'250px'}
+        height={'250px'}
+      />
       <br />
-      nfd: {nfd ? JSON.stringify(nfd) : 'loading...'}
+      nfd: {nfd ? nfd.name : 'loading...'}
+      <br />
+      nfd content: {nfd ? JSON.stringify(nfd) : 'loading...'}
       <br />
       <br />
       nfds: {nfds ? `Contains ${nfds.length} NFDs` : 'loading...'}
