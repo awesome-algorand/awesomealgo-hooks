@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/aorumbayev/awesomealgo-hooks/compare/v1.1.0...v1.2.0) (2023-01-11)
+
+
+### Features
+
+* adding new hook for url shortening, fixing types in nfd hook ([#10](https://github.com/aorumbayev/awesomealgo-hooks/issues/10)) ([1a31446](https://github.com/aorumbayev/awesomealgo-hooks/commit/1a314461b9b86ebaf4a5aa85ed70afce2ea421d8))
+
 # [1.1.0](https://github.com/aorumbayev/awesomealgo-hooks/compare/v1.0.6...v1.1.0) (2023-01-10)
 
 
