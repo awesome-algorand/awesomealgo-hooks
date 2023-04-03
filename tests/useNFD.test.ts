@@ -1,7 +1,7 @@
 import { Renderer, renderHook, RenderHookResult } from '@testing-library/react-hooks';
 import { act } from 'react-test-renderer';
 import { NFD } from '../src/misc/interfaces';
-import useNfdLookup from '../src/useNfdLookup';
+import { useNfdLookup } from '../src';
 
 describe('useNfdLookup', () => {
   it('should be defined', () => {

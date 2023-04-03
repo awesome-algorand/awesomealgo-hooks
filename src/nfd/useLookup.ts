@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { NFD, UseNfdSettings } from './misc/interfaces';
+import { NFD, UseNfdSettings } from '../misc/interfaces';
 
 const NFD_MAINNET = `https://api.nf.domains`;
 const NFD_TESTNET = `https://api.testnet.nf.domains`;
@@ -32,7 +32,7 @@ const fetchNFD = async (address: string, settings: UseNfdSettings = defaultSetti
   }
 };
 
-const useNfdLookup = (
+const useLookup = (
   address: string,
   settings: UseNfdSettings = defaultSettings,
 ): [NFD | null, NFD[] | null, any, () => void] => {
@@ -66,4 +66,4 @@ const useNfdLookup = (
   return [nfds && nfds.length > 0 ? nfds[0] : null, nfds, error, refresh];
 };
 
-export default useNfdLookup;
+export default useLookup;
