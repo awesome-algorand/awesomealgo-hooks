@@ -1,20 +1,19 @@
-import { storiesOf } from '@storybook/react';
 import * as React from 'react';
-import { useNfd } from '../src';
-import ShowDocs from './util/ShowDocs';
+import { useNfdLookup } from '../src';
 
-const Demo = () => {
-  const [nfd, nfds, error, refresh] = useNfd(
-    'R6YMHB4DIZIPYK2BV3TR4CD57CJZDLISTWKN5XMY7X7TCFACZIAOK5I4RM',
-    { network: 'mainnet' },
-  );
+type UseNfdDemoProps = {
+  address: string;
+};
+
+export const UseNfdDemo = ({ address = 'set your address ' }: UseNfdDemoProps) => {
+  const [nfd, nfds, error, refresh] = useNfdLookup(address, { network: 'mainnet' });
 
   return (
-    <div>
+    <div style={{ color: 'white' }}>
       <button onClick={refresh}>Refresh</button>
       <br />
       <img
-        src={nfd ? nfd.properties.userDefined.avatar : ''}
+        src={nfd && nfd.properties.userDefined ? nfd.properties.userDefined.avatar : ''}
         alt="icon"
         width={'250px'}
         height={'250px'}
@@ -32,7 +31,3 @@ const Demo = () => {
     </div>
   );
 };
-
-storiesOf('Integrations/useNfd.story', module)
-  .add('Docs', () => <ShowDocs md={require('../docs/useNfd.md')} />)
-  .add('Demo', () => <Demo />);

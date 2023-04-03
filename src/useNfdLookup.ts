@@ -32,27 +32,30 @@ const fetchNFD = async (address: string, settings: UseNfdSettings = defaultSetti
   }
 };
 
-const useNfd = (
+const useNfdLookup = (
   address: string,
   settings: UseNfdSettings = defaultSettings,
 ): [NFD | null, NFD[] | null, any, () => void] => {
+  const [prevAddress, setPrevAddress] = useState<string | null>(null);
   const [nfds, setNFDs] = useState<NFD[] | null>(null);
   const [error, setError] = useState<any | null>(null);
 
   useEffect(() => {
-    if (cache) {
+    if (cache && prevAddress === address) {
       setNFDs(cache);
     } else {
       fetchNFD(address, settings)
         .then((data) => {
+          console.log(data);
           cache = data;
           setNFDs(data);
+          setPrevAddress(address);
         })
         .catch((error: any) => {
           setError(error);
         });
     }
-  }, [address, settings]);
+  }, [address, prevAddress, settings]);
 
   const refresh = () => {
     setNFDs(null);
@@ -63,4 +66,4 @@ const useNfd = (
   return [nfds && nfds.length > 0 ? nfds[0] : null, nfds, error, refresh];
 };
 
-export default useNfd;
+export default useNfdLookup;

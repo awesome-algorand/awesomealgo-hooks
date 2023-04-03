@@ -31,7 +31,7 @@
 <br />
 
 - [**Integrations**](./docs/Integrations.md)
-  - [`useNfd`](./docs/useNfd.md) - [🚀🚀🚀](https://codesandbox.io/s/awesomealgo-hook-usenfd-example-23bnq4) - fetches NFD metadata from [NFD API](https://api-docs.nf.domains/).
+  - [`useNfdLookup`](./docs/useNfdLookup.md) - [🚀🚀🚀](https://codesandbox.io/s/awesomealgo-hook-usenfd-example-23bnq4) - fetches NFD metadata from [NFD API](https://api-docs.nf.domains/).
 - [**Helpers**](./docs/Helpers.md)
   - [`useShortAddress`](./docs/useShortAddress.md) - [🚀🚀🚀](https://codesandbox.io/s/awesomealgo-hook-useshortaddress-example-r30poo) - shortens a wallet address string.
 

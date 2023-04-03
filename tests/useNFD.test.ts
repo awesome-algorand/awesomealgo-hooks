@@ -1,26 +1,27 @@
 import { Renderer, renderHook, RenderHookResult } from '@testing-library/react-hooks';
 import { act } from 'react-test-renderer';
 import { NFD } from '../src/misc/interfaces';
-import useNfd from '../src/useNfd';
+import useNfdLookup from '../src/useNfdLookup';
 
-describe('useNfd', () => {
+describe('useNfdLookup', () => {
   it('should be defined', () => {
-    expect(useNfd).toBeDefined();
+    expect(useNfdLookup).toBeDefined();
   });
 
   it('should be defined 2', () => {
-    let hook: RenderHookResult<
-      string,
-      [NFD | null, NFD[] | null, any, () => void],
-      Renderer<string>
-    > | null = null;
-
     act(() => {
-      hook = renderHook((props) => useNfd(props), {
+      let hook: RenderHookResult<
+        string,
+        [NFD | null, NFD[] | null, any, () => void],
+        Renderer<string>
+      > | null = null;
+      hook = renderHook((props) => useNfdLookup(props), {
         initialProps: 'NRLA7VZ2YV6WOS2LBS3UK25DB463XRSNG63BYNQI6CSGGROFWVQ2EKBQSI',
       });
-    });
 
-    expect(hook).toBeDefined();
+      act(() => {
+        expect(hook).toBeDefined();
+      });
+    });
   });
 });

@@ -1,0 +1,33 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Quick Start" />
+
+# AwesomeAlgo Hooks 🎣
+
+This package provides a set of React hooks to simplify the interaction with Algorand in React based dApps.
+
+## `useShortAddress`
+
+This hook returns a shortened version of a given Algorand address.
+
+```jsx
+import { useShortAddress } from 'algorand-helpers';
+
+const ShortAddressExample = ({ address }) => {
+  const shortAddress = useShortAddress(address);
+  ...
+};
+```
+
+## `useNfdLookup`
+
+This hook performs lookup of the NFD/NFDs info for given Algorand address.
+
+```jsx
+import { useNfdLookup } from 'algorand-helpers';
+
+const NfdLookupExample = ({ address }) => {
+  const [nfd, nfds, error, refresh] = useNfdLookup(address, { network: 'mainnet' });
+  ...
+};
+```
