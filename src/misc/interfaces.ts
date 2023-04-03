@@ -58,3 +58,16 @@ export interface NFD {
   unverifiedCaAlgo: string[];
   additionalProperties: { [key: string]: any };
 }
+
+enum SubscriptionType {
+  UNLIMITED = 0,
+  MONTHLY = 1,
+  ANNUAL = 2,
+}
+
+export interface SubscriptionRecord {
+  created_at: string; // Use string type to represent datetime in ISO format
+  expires_at: string | null; // Use string type to represent datetime in ISO format
+  sub_id: number;
+  sub_type: SubscriptionType;
+}

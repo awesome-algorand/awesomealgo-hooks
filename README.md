@@ -31,9 +31,11 @@
 <br />
 
 - [**Integrations**](./docs/Integrations.md)
-  - [`useNfd`](./docs/useNfd.md) - [🚀🚀🚀](https://codesandbox.io/s/awesomealgo-hook-usenfd-example-23bnq4) - fetches NFD metadata from [NFD API](https://api-docs.nf.domains/).
+  - [`useNfdLookup`](./docs/useNfdLookup.md) - [🚀🚀🚀](https://aorumbayev.github.io/awesomealgo-hooks/?path=/docs/example-usenfddemo--docs) - fetches NFD metadata from [NFD API](https://api-docs.nf.domains/).
+  - [`useSubtopiaSubLookup`](./docs/useSubtopiaSubLookup.md) - [🚀🚀🚀](https://aorumbayev.github.io/awesomealgo-hooks/?path=/docs/example-usesubptopiasublookupdemo--docs) - fetches Subtopia subscription record from [Subtopia Platform](https://subtopia.io).
 - [**Helpers**](./docs/Helpers.md)
-  - [`useShortAddress`](./docs/useShortAddress.md) - [🚀🚀🚀](https://codesandbox.io/s/awesomealgo-hook-useshortaddress-example-r30poo) - shortens a wallet address string.
+  - [`useShortAddress`](./docs/useShortAddress.md) - [🚀🚀🚀](https://aorumbayev.github.io/awesomealgo-hooks/?path=/docs/example-useshortaddressdemo--docs) - shortens a wallet address string.
+  - [`useExplorerUrl`](./docs/useExplorerUrl.md) - [🚀🚀🚀](https://aorumbayev.github.io/awesomealgo-hooks/?path=/docs/example-useexplorerurldemo--docs) - generates an explorer URL for a given address. Currently supports [AlgoScan](https://algoscan.app) and [AlgoExplorer](https://algoexplorer.io).
 
 <br />
 
