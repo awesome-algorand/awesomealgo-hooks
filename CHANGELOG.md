@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/aorumbayev/awesomealgo-hooks/compare/v1.2.0...v1.3.0) (2023-04-03)
+
+
+### Features
+
+* new hooks; dep updates ([0e7a23e](https://github.com/aorumbayev/awesomealgo-hooks/commit/0e7a23e4910cc88ba354d5cf8a255f56f3b091c1))
+
 # [1.2.0](https://github.com/aorumbayev/awesomealgo-hooks/compare/v1.1.0...v1.2.0) (2023-01-11)
 
 
