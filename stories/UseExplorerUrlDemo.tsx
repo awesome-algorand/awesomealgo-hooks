@@ -1,7 +1,6 @@
 import { useExplorerUrl } from '../src';
 import React from 'react';
 import { ExplorerUrlType, ChainType, ExplorerType } from '../src/misc/enums';
-import { ALGOEXPLORER_URL } from '../src/misc/constants';
 
 type UseExplorerUrlDemoProps = {
   address: string;
