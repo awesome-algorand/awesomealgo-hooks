@@ -59,15 +59,23 @@ export interface NFD {
   additionalProperties: { [key: string]: any };
 }
 
-enum SubscriptionType {
+export enum SubscriptionType {
+  UNLIMITED = 0,
+  TIME_BASED = 1,
+}
+
+export enum SubscriptionExpirationType {
   UNLIMITED = 0,
   MONTHLY = 1,
-  ANNUAL = 2,
+  QUARTERLY = 2,
+  SEMI_ANNUAL = 3,
+  ANNUAL = 4,
 }
 
 export interface SubscriptionRecord {
-  created_at: string; // Use string type to represent datetime in ISO format
-  expires_at: string | null; // Use string type to represent datetime in ISO format
-  sub_id: number;
-  sub_type: SubscriptionType;
+  createdAt: Date;
+  expiresAt: Date | undefined;
+  expirationType: SubscriptionExpirationType;
+  subID: number;
+  subType: SubscriptionType;
 }

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { SubscriptionRecord } from '../misc/interfaces';
+import { SubscriptionExpirationType, SubscriptionRecord } from '../misc/interfaces';
 import { ChainType } from '../misc/enums';
 
 const API_BASE_URL = `https://api.subtopia.io/api/v1`;
@@ -8,7 +8,12 @@ const getSubscriptionEndpoint = () => {
   return `${API_BASE_URL}/subscription/record`;
 };
 
-const fetchSubscriptionRecord = async (address: string, smiId: number, chain: ChainType) => {
+const fetchSubscriptionRecord = async (
+  address: string,
+  smiId: number,
+  expirationType: SubscriptionExpirationType,
+  chain: ChainType,
+) => {
   try {
     const url = getSubscriptionEndpoint();
     const response = await fetch(
@@ -17,10 +22,18 @@ const fetchSubscriptionRecord = async (address: string, smiId: number, chain: Ch
         new URLSearchParams({
           subscriber_address: address,
           smi_id: smiId.toString(),
+          expiration_type: String(expirationType),
           chain: chain,
         }),
     );
-    const data = (await response.json()) as SubscriptionRecord | null;
+    let data = await response.json();
+    data = {
+      createdAt: data['created_at'],
+      expiresAt: data['expires_at'],
+      expirationType: data['expiration_type'],
+      subID: data['sub_id'],
+      subType: data['sub_type'],
+    } as SubscriptionRecord;
 
     return data;
   } catch (error: any) {
@@ -31,20 +44,21 @@ const fetchSubscriptionRecord = async (address: string, smiId: number, chain: Ch
 const useSubscriptionLookup = (
   address: string,
   smiId: number,
+  expirationType: SubscriptionExpirationType,
   chain: ChainType,
 ): [SubscriptionRecord | null, any, () => void] => {
   const [subscriptionRecord, setSubscriptionRecord] = useState<SubscriptionRecord | null>(null);
   const [error, setError] = useState<any | null>(null);
 
   useEffect(() => {
-    fetchSubscriptionRecord(address, smiId, chain)
+    fetchSubscriptionRecord(address, smiId, expirationType, chain)
       .then((data) => {
         setSubscriptionRecord(data);
       })
       .catch((error: any) => {
         setError(error);
       });
-  }, [address, smiId, chain]);
+  }, [address, smiId, chain, expirationType]);
 
   const refresh = () => {
     setSubscriptionRecord(null);
