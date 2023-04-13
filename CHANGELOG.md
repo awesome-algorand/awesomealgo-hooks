@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/aorumbayev/awesomealgo-hooks/compare/v1.3.0...v1.4.0) (2023-04-13)
+
+
+### Features
+
+* adding discounts support ([#18](https://github.com/aorumbayev/awesomealgo-hooks/issues/18)) ([bf1cfc3](https://github.com/aorumbayev/awesomealgo-hooks/commit/bf1cfc317cb9c2dd36bd1b93bb51a6fe71d0f160))
+
 # [1.3.0](https://github.com/aorumbayev/awesomealgo-hooks/compare/v1.2.0...v1.3.0) (2023-04-03)
 
 
