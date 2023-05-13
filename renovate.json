@@ -6,18 +6,21 @@
   "assignees": ["aorumbayev"],
   "baseBranches": ["main"],
   "separateMajorMinor": true,
+  "platformAutomerge": true,
   "ignoreUnstable": true,
   "rebaseStalePrs": true,
   "lockFileMaintenance": {
     "enabled": true,
-    "extends": "schedule:monthly"
+    "extends": "schedule:monthly",
+    "automerge": true
   },
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "all non-major dependencies",
-      "groupSlug": "all-minor-patch"
+      "groupSlug": "all-minor-patch",
+      "automerge": true
     }
   ]
 }
