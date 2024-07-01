@@ -3249,21 +3249,19 @@
     lodash-es "^4.17.21"
     read-pkg-up "^10.0.0"
 
-"@shopify/async@^4.0.3":
+"@shopify/async@^4.1.0":
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@shopify/async/-/async-4.1.0.tgz#15c3bc5b2f38affdb75808ca5845b83de014cd72"
   integrity sha512-4g0Yh5ibrEbrDWVaEDtHdstkympA2xYo7mvndF8KDx7RRpnnlw3a7sKaZFBK2vfe1t4JU4Lg9ohwRRpRYFz7bQ==
 
-"@shopify/jest-dom-mocks@4.2.0":
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@shopify/jest-dom-mocks/-/jest-dom-mocks-4.2.0.tgz#f1b625b9c8be3ef599527c2036d870af3c769d76"
-  integrity sha512-7kx3H+uirRYHqOGhTpOpqLqtn3N452E8lhGBkHYifNFILR7aySyIkSha8TYXUQK/fD26L3S6WNsBMWF7m72ZkA==
+"@shopify/jest-dom-mocks@5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@shopify/jest-dom-mocks/-/jest-dom-mocks-5.1.0.tgz#471e7e16c31c0f02943e3bf3d2df3154941686a3"
+  integrity sha512-dr0jZ8Cn/BNW3gY0e2EsNzpsBZ2ZfjVMR2q6cE0dzC7QXXNpZgDzqojx3kllgCL1AIBft+z5HE3RB+9A+e7dmw==
   dependencies:
-    "@shopify/async" "^4.0.3"
+    "@shopify/async" "^4.1.0"
     "@types/fetch-mock" "^7.3.3"
-    "@types/lolex" "^2.1.3"
     fetch-mock "^9.11.0"
-    lolex "^2.7.5"
     promise "^8.0.3"
 
 "@sigstore/bundle@^1.1.0":
@@ -4763,11 +4761,6 @@
   version "4.17.6"
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.17.6.tgz#193ced6a40c8006cfc1ca3f4553444fb38f0e543"
   integrity sha512-OpXEVoCKSS3lQqjx9GGGOapBeuW5eUboYHRlHP9urXPX25IKZ6AnP5ZRxtVf63iieUbsHxLn8NQ5Nlftc6yzAA==
-
-"@types/lolex@^2.1.3":
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/@types/lolex/-/lolex-2.1.3.tgz#793557c9b8ad319b4c8e4c6548b90893f4aa5f69"
-  integrity sha512-nEipOLYyZJ4RKHCg7tlR37ewFy91oggmip2MBzPdVQ8QhTFqjcRhE8R0t4tfpDnSlxGWHoEGJl0UCC4kYhqoiw==
 
 "@types/mdast@^3.0.0":
   version "3.0.15"
@@ -11250,11 +11243,6 @@ log-update@^4.0.0:
     cli-cursor "^3.1.0"
     slice-ansi "^4.0.0"
     wrap-ansi "^6.2.0"
-
-lolex@^2.7.5:
-  version "2.7.5"
-  resolved "https://registry.yarnpkg.com/lolex/-/lolex-2.7.5.tgz#113001d56bfc7e02d56e36291cc5c413d1aa0733"
-  integrity sha512-l9x0+1offnKKIzYVjyXU2SiwhXDLekRzKyhnbyldPHvC7BvLPVpdNUNR2KeMAiCN2D/kLNttZgQD5WjSxuBx3Q==
 
 longest-streak@^3.0.0:
   version "3.1.0"
